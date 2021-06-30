@@ -1,5 +1,15 @@
 //jshint esversion:6
 
+//To get mongo running in a separate tab: brew services start mongodb-community@4.4
+//replace start with stop if you want to stop it from running
+
+//to see your collection in another tab: mongo
+// functions: show dbs, use fruitsDB, db.dropDatabase(), show collections, db.fruits.find()
+
+//to install a package: npm i ...
+//to run on local 3000: nodemon app.js
+
+//https://evening-dawn-57024.herokuapp.com/
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
